@@ -13,4 +13,5 @@ public class AccessIdentifiers {
         System.out.println(message);
         MyOtherClass myOtherClass=new MyOtherClass();
     }
+    
 }
