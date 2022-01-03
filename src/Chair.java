@@ -1,6 +1,11 @@
 public class Chair {
     private int feet = 4;
     public boolean isMakingChurrSound = true;
+    private String chairName;
+
+    public Chair(String chairName) {
+        this.chairName = chairName;
+    }
 
     public void setFeet(int newFeet) {
         if (newFeet > 8)
@@ -18,6 +23,6 @@ public class Chair {
     }
 
     public void showInfo() {
-        System.out.println("I'm a chair and I've " + feet + " feet");
+        System.out.println("I'm a chair, my name is " + chairName + " and I've " + feet + " feet");
     }
 }
