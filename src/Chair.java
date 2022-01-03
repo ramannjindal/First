@@ -3,8 +3,8 @@ public class Chair {
     public boolean isMakingChurrSound = true;
     private String chairName;
 
-    public Chair(String chairName) {
-        this.chairName = chairName;
+    public Chair(String _chairName) {
+        this.chairName = _chairName;
     }
 
     public void setFeet(int newFeet) {
